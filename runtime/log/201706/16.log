@@ -1,0 +1,4404 @@
+[ 2017-06-16T23:45:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] localhost/index.php [运行时间：1.551089s][吞吐率：0.64req/s] [内存消耗：3,914.98kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/install/index.php?step=3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.105006s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->index[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\wstmart/wstmart/home\view\default\index.html [ array (
+  0 => 'v',
+  1 => 'floors',
+  2 => 'hideCategory',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:45:59+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.194011s][吞吐率：5.15req/s] [内存消耗：2,851.58kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.020001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:45:59+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] localhost/ [运行时间：0.867049s][吞吐率：1.15req/s] [内存消耗：3,340.82kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/index.php',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.019001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->index[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\wstmart/wstmart/home\view\default\index.html [ array (
+  0 => 'v',
+  1 => 'floors',
+  2 => 'hideCategory',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,851.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.014001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:18+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,851.58kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：2,851.58kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] localhost/index.php [运行时间：0.801046s][吞吐率：1.25req/s] [内存消耗：3,349.07kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/index.php',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->index[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\wstmart/wstmart/home\view\default\index.html [ array (
+  0 => 'v',
+  1 => 'floors',
+  2 => 'hideCategory',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] localhost/index.php [运行时间：0.755044s][吞吐率：1.32req/s] [内存消耗：3,349.18kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/install/index.php?step=3',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.013001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->index[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\wstmart/wstmart/home\view\default\index.html [ array (
+  0 => 'v',
+  1 => 'floors',
+  2 => 'hideCategory',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.208012s][吞吐率：4.81req/s] [内存消耗：2,851.69kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.054003s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:34+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] localhost/ [运行时间：1.154066s][吞吐率：0.87req/s] [内存消耗：3,340.76kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/index.php',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.023001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->index[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\wstmart/wstmart/home\view\default\index.html [ array (
+  0 => 'v',
+  1 => 'floors',
+  2 => 'hideCategory',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,851.58kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/index
+[ log ] localhost/index.php/Admin/index [运行时间：0.137008s][吞吐率：7.30req/s] [内存消耗：3,018.16kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/install/index.php?step=3',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\InitConfig @module_init [ RunTime:0.108006s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/login.html
+[ log ] localhost/index.php/admin/index/login.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：3,415.42kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/install/index.php?step=3',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\InitConfig @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenLoginStatus @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenPrivilege @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenOperate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\admin\controller\Index->login[ D:\wamp\www\wstmart\wstmart\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\wstmart/wstmart/admin\view\login.html [ array (
+  0 => 'v',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/getverify.html
+[ log ] localhost/index.php/admin/index/getverify.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：2,025.72kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/index.php/admin/index/login.html',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\InitConfig @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenLoginStatus @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenPrivilege @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenOperate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\admin\controller\Base->getVerify[ D:\wamp\www\wstmart\wstmart\admin\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,852.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/admin/index/checkLogin.html
+[ log ] localhost/index.php/admin/index/checkLogin.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,881.00kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'checkLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php/admin/index/login.html',
+  'content-length' => '47',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'loginName' => 'admin',
+  'loginPwd' => '123456',
+  'verifyCode' => 'wwuw',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\InitConfig @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenLoginStatus @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenPrivilege @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenOperate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\admin\controller\Index->checkLogin[ D:\wamp\www\wstmart\wstmart\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:46:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/getVerify.html?rnd=0.7008771857146154
+[ log ] localhost/index.php/admin/index/getVerify.html?rnd=0.7008771857146154 [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,025.93kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getVerify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/index.php/admin/index/login.html',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'rnd' => '0.7008771857146154',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\InitConfig @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenLoginStatus @action_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenPrivilege @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenOperate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\admin\controller\Base->getVerify[ D:\wamp\www\wstmart\wstmart\admin\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/admin/index/checkLogin.html
+[ log ] localhost/index.php/admin/index/checkLogin.html [运行时间：0.719041s][吞吐率：1.39req/s] [内存消耗：3,174.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'checkLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php/admin/index/login.html',
+  'content-length' => '47',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'loginName' => 'admin',
+  'loginPwd' => '123456',
+  'verifyCode' => 'ikti',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\InitConfig @module_init [ RunTime:0.003001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenLoginStatus @action_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenPrivilege @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenOperate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\admin\controller\Index->checkLogin[ D:\wamp\www\wstmart\wstmart\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/index.html
+[ log ] localhost/index.php/admin/index/index.html [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：3,376.25kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/index.php/admin/index/login.html',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\InitConfig @module_init [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenLoginStatus @action_begin [ RunTime:0.006001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenPrivilege @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenOperate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\admin\controller\Index->index[ D:\wamp\www\wstmart\wstmart\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\wstmart/wstmart/admin\view\index.html [ array (
+  0 => 'v',
+  1 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:04+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/admin/index/getSubMenus.html
+[ log ] localhost/index.php/admin/index/getSubMenus.html [运行时间：0.128007s][吞吐率：7.81req/s] [内存消耗：3,072.14kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getSubMenus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php/admin/index/index.html',
+  'content-length' => '4',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\InitConfig @module_init [ RunTime:0.012000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenLoginStatus @action_begin [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenPrivilege @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenOperate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\admin\controller\Index->getSubMenus[ D:\wamp\www\wstmart\wstmart\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/main.html
+[ log ] localhost/index.php/admin/index/main.html [运行时间：0.164009s][吞吐率：6.10req/s] [内存消耗：3,406.18kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/index.php/admin/index/index.html',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\InitConfig @module_init [ RunTime:0.003001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenLoginStatus @action_begin [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenPrivilege @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenOperate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\admin\controller\Index->main[ D:\wamp\www\wstmart\wstmart\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\wstmart/wstmart/admin\view\main.html [ array (
+  0 => 'v',
+  1 => 'object',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:05+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/admin/index/getVersion.html
+[ log ] localhost/index.php/admin/index/getVersion.html [运行时间：0.454026s][吞吐率：2.20req/s] [内存消耗：2,309.95kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php/admin/index/main.html',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\InitConfig @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenLoginStatus @action_begin [ RunTime:0.008000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenPrivilege @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\admin\behavior\ListenOperate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\admin\controller\Index->getVersion[ D:\wamp\www\wstmart\wstmart\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001001s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.021001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.013001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:47:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:48:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:48:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:48:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:48:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.101005s][吞吐率：9.90req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.017001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:48:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:48:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:49:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:49:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:49:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.014001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:49:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:49:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.014001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:49:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:50:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:50:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.065003s][吞吐率：15.38req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:50:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.081004s][吞吐率：12.35req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:50:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.065003s][吞吐率：15.38req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:50:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:50:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.015001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:51:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.065003s][吞吐率：15.38req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:51:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:51:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:51:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:51:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:51:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.079004s][吞吐率：12.66req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:52:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.017001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:52:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.014001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:52:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.074005s][吞吐率：13.51req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:52:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.095005s][吞吐率：10.53req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.018001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:52:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:52:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.073005s][吞吐率：13.70req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:53:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.013001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:53:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:53:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.086004s][吞吐率：11.63req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.014001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:53:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.015001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:53:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.014000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:53:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:54:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.018001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:54:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:54:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.016001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:54:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:54:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:54:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.014001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:55:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.017001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:55:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:55:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:55:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.074005s][吞吐率：13.51req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:55:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:55:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:56:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.020001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:56:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:56:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:56:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.016000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:56:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:56:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.014001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:57:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:57:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:57:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.015001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:57:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:57:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:57:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:58:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:58:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.014001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:58:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:58:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:58:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011000s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:58:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:59:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：1.113063s][吞吐率：0.90req/s] [内存消耗：2,974.12kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.016001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.002001s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:59:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.019001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:59:13+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] localhost/ [运行时间：0.954055s][吞吐率：1.05req/s] [内存消耗：3,463.52kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->index[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\wstmart/wstmart/home\view\default\index.html [ array (
+  0 => 'v',
+  1 => 'floors',
+  2 => 'hideCategory',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:59:16+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] localhost/ [运行时间：0.905052s][吞吐率：1.10req/s] [内存消耗：3,463.36kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->index[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\wstmart/wstmart/home\view\default\index.html [ array (
+  0 => 'v',
+  1 => 'floors',
+  2 => 'hideCategory',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:59:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.012001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:59:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:59:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.013001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-16T23:59:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/home/index/getSysMessages.html
+[ log ] localhost/index.php/home/index/getSysMessages.html [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：2,974.14kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\wstmart\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getSysMessages',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/index.php',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=f9mlgp3pkc43690t0a9rb3fe50',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\InitConfig @module_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run wstmart\home\behavior\ListenProtectedUrl @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] wstmart\home\controller\Index->getSysMessages[ D:\wamp\www\wstmart\wstmart\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'WSTMART_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
